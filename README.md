@@ -4,6 +4,14 @@
 
 </div>
 
+## 📡 Live Status
+
+<div align="center">
+
+<img src="./profile/status.svg?v=2" width="380" />
+
+</div>
+
 ## 🐻 About Me
 
 <div align="center">
