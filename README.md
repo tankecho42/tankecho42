@@ -4,7 +4,6 @@
 
 </div>
 
-## 📡 Live Status
 
 <div align="center">
 
@@ -12,7 +11,6 @@
 
 </div>
 
-## 🐻 About Me
 
 <div align="center">
 
