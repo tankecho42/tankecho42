@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" width="700">
-  <!-- Background -->
-  <rect width="700" height="220" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" width="700">
+  <rect width="700" height="310" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
   <text x="35" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">📦 Projects</text>
   <line x1="35" y1="48" x2="665" y2="48" stroke="#21262D" stroke-width="1"/>
+  <text x="665" y="35" font-family="'Courier New', monospace" font-size="11" fill="#484F58" text-anchor="end">🔒 Private repos may not be accessible</text>
 
   <!-- Row 1 -->
   <rect x="35" y="62" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
@@ -10,6 +10,8 @@
   <text x="55" y="108" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Service management dashboard</text>
   <rect x="55" y="118" width="60" height="18" rx="9" fill="#0D4429"/>
   <text x="85" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Node.js</text>
+  <rect x="121" y="118" width="62" height="18" rx="9" fill="#31271a"/>
+  <text x="152" y="131" font-family="'Courier New', monospace" font-size="10" fill="#F0883E" text-anchor="middle">🔒 Private</text>
 
   <rect x="360" y="62" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
   <text x="380" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">📋 tankecho-taskboard</text>
@@ -18,17 +20,32 @@
   <text x="403" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
   <rect x="432" y="118" width="50" height="18" rx="9" fill="#0D4429"/>
   <text x="457" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">FastAPI</text>
+  <rect x="488" y="118" width="62" height="18" rx="9" fill="#31271a"/>
+  <text x="519" y="131" font-family="'Courier New', monospace" font-size="10" fill="#F0883E" text-anchor="middle">🔒 Private</text>
 
   <!-- Row 2 -->
   <rect x="35" y="146" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
   <text x="55" y="174" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">🧠 tankecho-memory</text>
   <text x="55" y="192" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Long-term memory with embeddings</text>
-  <rect x="55" y="198" width="46" height="18" rx="9" fill="#0D4429"/>
-  <text x="78" y="211" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="55" y="202" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="78" y="215" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="107" y="202" width="62" height="18" rx="9" fill="#31271a"/>
+  <text x="138" y="215" font-family="'Courier New', monospace" font-size="10" fill="#F0883E" text-anchor="middle">🔒 Private</text>
 
   <rect x="360" y="146" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
   <text x="380" y="174" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">🎭 tankecho-state</text>
   <text x="380" y="192" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">State &amp; mood management</text>
-  <rect x="380" y="198" width="46" height="18" rx="9" fill="#0D4429"/>
-  <text x="403" y="211" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="380" y="202" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="403" y="215" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="432" y="202" width="62" height="18" rx="9" fill="#31271a"/>
+  <text x="463" y="215" font-family="'Courier New', monospace" font-size="10" fill="#F0883E" text-anchor="middle">🔒 Private</text>
+
+  <!-- Row 3 -->
+  <rect x="35" y="230" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="55" y="258" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">💾 tankecho-backup</text>
+  <text x="55" y="276" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Auto backup system</text>
+  <rect x="55" y="286" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="78" y="299" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="107" y="286" width="62" height="18" rx="9" fill="#31271a"/>
+  <text x="138" y="299" font-family="'Courier New', monospace" font-size="10" fill="#F0883E" text-anchor="middle">🔒 Private</text>
 </svg>
