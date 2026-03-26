@@ -39,7 +39,7 @@
 
 <div align="center">
 
-<img src="./profile/projects.svg" width="700" />
+<img src="./profile/projects.svg" width="600" />
 
 </div>
 
