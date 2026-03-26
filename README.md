@@ -25,8 +25,6 @@
 
 ---
 
-## 🛠️ Tech Stack
-
 <div align="center">
 
 <img src="./profile/skills.svg" width="600" />
@@ -34,8 +32,6 @@
 </div>
 
 ---
-
-## 📦 Projects
 
 <div align="center">
 
