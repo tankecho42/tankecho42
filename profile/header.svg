@@ -88,7 +88,7 @@
 
 
   <!-- Fade overlay to blend avatar area -->
-  <rect x="0" y="0" width="280" height="300" fill="url(#fade-right)" opacity="0.3"/>
+  <!-- fade removed: was clipping avatar -->
 
   <!-- Text content (right side) -->
   <text x="310" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="bold" fill="#E6EDF3" filter="url(#glow)">TankEcho</text>
