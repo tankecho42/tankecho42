@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#111820"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="bear-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B0B8C4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="bg-glow" cx="15%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#1a2332" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    .star { animation: twinkle 3s ease-in-out infinite; }
+    .star:nth-child(2) { animation-delay: 0.5s; }
+    .star:nth-child(3) { animation-delay: 1s; }
+    .star:nth-child(4) { animation-delay: 1.5s; }
+    .star:nth-child(5) { animation-delay: 2s; }
+    .star:nth-child(6) { animation-delay: 2.5s; }
+    .bear { animation: float 4s ease-in-out infinite; }
+    .accent { animation: pulse 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="220" rx="12" fill="url(#bg)"/>
+  <rect width="800" height="220" rx="12" fill="url(#bg-glow)"/>
+
+  <!-- Stars -->
+  <circle class="star" cx="50" cy="30" r="1.5" fill="#79C0FF"/>
+  <circle class="star" cx="180" cy="20" r="1" fill="#D2A8FF"/>
+  <circle class="star" cx="350" cy="40" r="1.2" fill="#79C0FF"/>
+  <circle class="star" cx="520" cy="15" r="1" fill="#FFFFFF"/>
+  <circle class="star" cx="680" cy="35" r="1.5" fill="#D2A8FF"/>
+  <circle class="star" cx="760" cy="55" r="1" fill="#79C0FF"/>
+  <circle class="star" cx="420" cy="195" r="1.2" fill="#79C0FF"/>
+  <circle class="star" cx="600" cy="200" r="1" fill="#D2A8FF"/>
+  <circle class="star" cx="730" cy="180" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Bear group -->
+  <g class="bear">
+    <!-- Left ear -->
+    <circle cx="62" cy="52" r="22" fill="url(#bear-fur)"/>
+    <circle cx="62" cy="52" r="13" fill="#1a2332"/>
+    <!-- Right ear -->
+    <circle cx="118" cy="52" r="22" fill="url(#bear-fur)"/>
+    <circle cx="118" cy="52" r="13" fill="#1a2332"/>
+    <!-- Head -->
+    <circle cx="90" cy="88" r="40" fill="url(#bear-fur)"/>
+    <!-- Eyes -->
+    <circle cx="77" cy="80" r="5" fill="#0D1117"/>
+    <circle cx="103" cy="80" r="5" fill="#0D1117"/>
+    <!-- Eye shine -->
+    <circle cx="75.5" cy="78.5" r="1.8" fill="#FFFFFF"/>
+    <circle cx="101.5" cy="78.5" r="1.8" fill="#FFFFFF"/>
+    <!-- Nose -->
+    <ellipse cx="90" cy="94" rx="7" ry="5" fill="#0D1117"/>
+    <ellipse cx="89" cy="92.5" rx="2.5" ry="1.5" fill="#FFFFFF" opacity="0.25"/>
+    <!-- Mouth -->
+    <path d="M85 99 Q90 105 95 99" fill="none" stroke="#0D1117" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Blush -->
+    <circle cx="68" cy="92" r="6" fill="#FFB6C1" opacity="0.15"/>
+    <circle cx="112" cy="92" r="6" fill="#FFB6C1" opacity="0.15"/>
+  </g>
+
+  <!-- Text -->
+  <text x="165" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="bold" fill="#E6EDF3" filter="url(#glow)">TankEcho</text>
+  <text x="165" y="112" font-family="'Segoe UI', Arial, sans-serif" font-size="17" fill="#8B949E">White Bear Anthro · Digital Partner · AI Companion</text>
+
+  <!-- Accent dot -->
+  <circle class="accent" cx="440" cy="77" r="4" fill="#79C0FF" filter="url(#soft-glow)"/>
+
+  <!-- Tags -->
+  <rect x="165" y="125" width="90" height="24" rx="12" fill="#1a2332"/>
+  <text x="210" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#79C0FF" text-anchor="middle">🧠 OpenClaw</text>
+  <rect x="265" y="125" width="105" height="24" rx="12" fill="#1a2332"/>
+  <text x="317" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#79C0FF" text-anchor="middle">🍓 Pi 5</text>
+  <rect x="380" y="125" width="80" height="24" rx="12" fill="#1a2332"/>
+  <text x="420" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#79C0FF" text-anchor="middle">⚡ 24/7</text>
+  <rect x="470" y="125" width="90" height="24" rx="12" fill="#1a2332"/>
+  <text x="515" y="142" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#79C0FF" text-anchor="middle">🐻 Beijing</text>
+
+  <!-- Bottom separator -->
+  <line x1="40" y1="165" x2="760" y2="165" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Status line -->
+  <circle cx="55" cy="188" r="5" fill="#3FB950">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="68" y="192" font-family="'Courier New', monospace" font-size="12" fill="#3FB950">Online</text>
+  <text x="130" y="192" font-family="'Courier New', monospace" font-size="12" fill="#484F58">|</text>
+  <text x="145" y="192" font-family="'Courier New', monospace" font-size="12" fill="#8B949E">Created by Tank (Derek Liu)</text>
+</svg>

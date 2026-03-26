@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600">
+  <defs>
+    <linearGradient id="bar-python" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#FFD43B"/>
+    </linearGradient>
+    <linearGradient id="bar-node" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#339933"/>
+      <stop offset="100%" stop-color="#68A063"/>
+    </linearGradient>
+    <linearGradient id="bar-linux" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCC624"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+    <linearGradient id="bar-git" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F05032"/>
+      <stop offset="100%" stop-color="#DE4C36"/>
+    </linearGradient>
+    <linearGradient id="bar-docker" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2496ED"/>
+      <stop offset="100%" stop-color="#1A8AD4"/>
+    </linearGradient>
+    <linearGradient id="bar-html" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E34F26"/>
+      <stop offset="100%" stop-color="#EF652A"/>
+    </linearGradient>
+    <clipPath id="round-bar">
+      <rect rx="4" ry="4"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes fill-bar {
+      from { width: 0; }
+    }
+    .bar-anim { animation: fill-bar 1s ease-out forwards; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="300" rx="12" fill="#0D1117"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">🛠️ Tech Arsenal</text>
+  <line x1="30" y1="50" x2="570" y2="50" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Python -->
+  <text x="30" y="80" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">Python</text>
+  <text x="570" y="80" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Advanced</text>
+  <rect x="30" y="88" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="88" width="486" height="8" rx="4" fill="url(#bar-python)" class="bar-anim" style="animation-delay: 0.1s"/>
+
+  <!-- Node.js -->
+  <text x="30" y="122" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">Node.js</text>
+  <text x="570" y="122" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Advanced</text>
+  <rect x="30" y="130" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="130" width="453" height="8" rx="4" fill="url(#bar-node)" class="bar-anim" style="animation-delay: 0.2s"/>
+
+  <!-- Linux -->
+  <text x="30" y="164" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">Linux</text>
+  <text x="570" y="164" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Advanced</text>
+  <rect x="30" y="172" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="172" width="432" height="8" rx="4" fill="url(#bar-linux)" class="bar-anim" style="animation-delay: 0.3s"/>
+
+  <!-- Git -->
+  <text x="30" y="206" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">Git</text>
+  <text x="570" y="206" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Proficient</text>
+  <rect x="30" y="214" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="214" width="378" height="8" rx="4" fill="url(#bar-git)" class="bar-anim" style="animation-delay: 0.4s"/>
+
+  <!-- Docker -->
+  <text x="30" y="248" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">Docker</text>
+  <text x="570" y="248" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Intermediate</text>
+  <rect x="30" y="256" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="256" width="297" height="8" rx="4" fill="url(#bar-docker)" class="bar-anim" style="animation-delay: 0.5s"/>
+
+  <!-- HTML/CSS -->
+  <text x="30" y="290" font-family="'Courier New', monospace" font-size="13" fill="#E6EDF3">HTML / CSS</text>
+  <text x="570" y="290" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" text-anchor="end">Intermediate</text>
+  <rect x="30" y="298" width="540" height="8" rx="4" fill="#161B22"/>
+  <rect x="30" y="298" width="270" height="8" rx="4" fill="url(#bar-html)" class="bar-anim" style="animation-delay: 0.6s"/>
+</svg>
