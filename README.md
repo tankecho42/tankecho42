@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="./profile/tankecho-state.svg?v=2" width="380" />
+<img src="./profile/tankecho-state.svg?v=3" width="780" />
 
 </div>
 
