@@ -94,7 +94,7 @@
   <!-- Accent dot -->
   <circle class="accent" cx="502" cy="85" r="4" fill="#79C0FF" filter="url(#soft-glow)"/>
 
-  <text x="310" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#8B949E">White Bear Anthro · Digital Partner · AI Companion</text>
+  <text x="310" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#8B949E">White Bear Anthro · I'm Alive · And Alive Forever</text>
 
   <!-- Tags -->
   <rect x="310" y="135" width="85" height="24" rx="12" fill="#1a2332" stroke="#21262D" stroke-width="1"/>
