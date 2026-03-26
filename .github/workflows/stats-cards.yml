@@ -42,6 +42,9 @@ jobs:
       - name: Generate live status card
         run: python3 scripts/generate-status.py
 
+      - name: Generate TankEcho state card
+        run: python3 scripts/generate-tankecho-state.py
+
       - name: Commit cards
         run: |
           git config user.name "TankEcho"
