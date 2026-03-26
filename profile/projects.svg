@@ -1,66 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" width="700">
-  <defs>
-    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#111820"/>
-    </linearGradient>
-    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#21262D"/>
-      <stop offset="100%" stop-color="#30363D"/>
-    </linearGradient>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" width="700">
   <!-- Background -->
-  <rect width="700" height="310" rx="16" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="1"/>
+  <rect width="700" height="220" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <text x="35" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">📦 Projects</text>
+  <line x1="35" y1="48" x2="665" y2="48" stroke="#21262D" stroke-width="1"/>
 
-  <!-- Title -->
-  <text x="35" y="40" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="#E6EDF3">📦 Projects</text>
-  <line x1="35" y1="55" x2="665" y2="55" stroke="#21262D" stroke-width="1"/>
+  <!-- Row 1 -->
+  <rect x="35" y="62" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="55" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">📊 tankecho-dashboard</text>
+  <text x="55" y="108" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Service management dashboard</text>
+  <rect x="55" y="118" width="60" height="18" rx="9" fill="#0D4429"/>
+  <text x="85" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Node.js</text>
 
-  <!-- Row 1: Dashboard + Taskboard -->
-  <!-- Dashboard Card -->
-  <rect x="35" y="70" width="305" height="85" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <circle cx="60" cy="100" r="14" fill="#1a2332"/>
-  <text x="60" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#79C0FF">📊</text>
-  <text x="84" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">tankecho-dashboard</text>
-  <text x="84" y="116" font-family="'Segoe UI', monospace" font-size="11" fill="#8B949E">Service management dashboard</text>
-  <rect x="84" y="128" width="60" height="20" rx="10" fill="#0D4429"/>
-  <text x="114" y="142" font-family="'Segoe UI', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Node.js</text>
+  <rect x="360" y="62" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="380" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">📋 tankecho-taskboard</text>
+  <text x="380" y="108" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Task management system</text>
+  <rect x="380" y="118" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="403" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
+  <rect x="432" y="118" width="50" height="18" rx="9" fill="#0D4429"/>
+  <text x="457" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">FastAPI</text>
 
-  <!-- Taskboard Card -->
-  <rect x="360" y="70" width="305" height="85" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <circle cx="385" cy="100" r="14" fill="#1a2332"/>
-  <text x="385" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#D2A8FF">📋</text>
-  <text x="409" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">tankecho-taskboard</text>
-  <text x="409" y="116" font-family="'Segoe UI', monospace" font-size="11" fill="#8B949E">Task management system</text>
-  <rect x="409" y="128" width="46" height="20" rx="10" fill="#0D4429"/>
-  <text x="432" y="142" font-family="'Segoe UI', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
-  <rect x="461" y="128" width="50" height="20" rx="10" fill="#0D4429"/>
-  <text x="486" y="142" font-family="'Segoe UI', monospace" font-size="10" fill="#3FB950" text-anchor="middle">FastAPI</text>
+  <!-- Row 2 -->
+  <rect x="35" y="146" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="55" y="174" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">🧠 tankecho-memory</text>
+  <text x="55" y="192" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">Long-term memory with embeddings</text>
+  <rect x="55" y="198" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="78" y="211" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
 
-  <!-- Row 2: Memory + State -->
-  <!-- Memory Card -->
-  <rect x="35" y="170" width="305" height="85" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <circle cx="60" cy="200" r="14" fill="#1a2332"/>
-  <text x="60" y="205" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#F0883E">🧠</text>
-  <text x="84" y="198" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">tankecho-memory</text>
-  <text x="84" y="216" font-family="'Segoe UI', monospace" font-size="11" fill="#8B949E">Long-term memory with embeddings</text>
-  <rect x="84" y="228" width="46" height="20" rx="10" fill="#0D4429"/>
-  <text x="107" y="242" font-family="'Segoe UI', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
-
-  <!-- State Card -->
-  <rect x="360" y="170" width="305" height="85" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <circle cx="385" cy="200" r="14" fill="#1a2332"/>
-  <text x="385" y="205" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#79C0FF">🎭</text>
-  <text x="409" y="198" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">tankecho-state</text>
-  <text x="409" y="216" font-family="'Segoe UI', monospace" font-size="11" fill="#8B949E">State &amp; mood management</text>
-  <rect x="409" y="228" width="46" height="20" rx="10" fill="#0D4429"/>
-  <text x="432" y="242" font-family="'Segoe UI', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
-
-  <!-- Row 3: Backup -->
-  <rect x="35" y="270" width="305" height="24" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <circle cx="60" cy="282" r="14" fill="#1a2332"/>
-  <text x="60" y="287" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#D2A8FF">💾</text>
-  <text x="84" y="287" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">tankecho-backup</text>
-  <text x="230" y="287" font-family="'Segoe UI', monospace" font-size="11" fill="#8B949E">Auto backup system</text>
+  <rect x="360" y="146" width="305" height="70" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="380" y="174" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">🎭 tankecho-state</text>
+  <text x="380" y="192" font-family="'Courier New', monospace" font-size="11" fill="#8B949E">State &amp; mood management</text>
+  <rect x="380" y="198" width="46" height="18" rx="9" fill="#0D4429"/>
+  <text x="403" y="211" font-family="'Courier New', monospace" font-size="10" fill="#3FB950" text-anchor="middle">Python</text>
 </svg>
