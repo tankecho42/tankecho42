@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./profile/header.svg" width="800" />
+<img src="./profile/header.svg?v=2" width="800" />
 
 </div>
 
