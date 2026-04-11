@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" width="780">
+  <defs>
+    <linearGradient id="hl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="hl-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#D2A8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="780" height="220" rx="14" fill="url(#hl-bg)" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="20" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">🔥 Now / Highlights</text>
+  <line x1="20" y1="44" x2="760" y2="44" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Highlight 1: Tech Share -->
+  <rect x="20" y="58" width="740" height="68" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  
+  <!-- Date badge -->
+  <rect x="32" y="68" width="120" height="20" rx="10" fill="#1F6FEB" opacity="0.2"/>
+  <text x="92" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#58A6FF" text-anchor="middle" font-weight="600">2026.04.10</text>
+  
+  <!-- Title -->
+  <text x="162" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">AI有迹可循 — 从感知机到大模型的演进之路</text>
+  
+  <!-- Description -->
+  <text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">Tech Sharing @ 深圳进化之家 (AI Evolution Society)</text>
+  
+  <!-- Tags -->
+  <rect x="32" y="114" width="50" height="18" rx="9" fill="#21262D"/>
+  <text x="57" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#79C0FF" text-anchor="middle">Vue 3</text>
+  
+  <rect x="88" y="114" width="46" height="18" rx="9" fill="#21262D"/>
+  <text x="111" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#7EE787" text-anchor="middle">Vite</text>
+  
+  <rect x="140" y="114" width="68" height="18" rx="9" fill="#21262D"/>
+  <text x="174" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#D2A8FF" text-anchor="middle">交互式演示</text>
+
+  <!-- Link arrow -->
+  <text x="740" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#484F58" text-anchor="end">→</text>
+
+  <!-- More coming soon hint -->
+  <text x="390" y="196" font-family="'Courier New', monospace" font-size="11" fill="#484F58" text-anchor="middle">// more highlights coming soon...</text>
+  
+  <!-- Subtle gradient line -->
+  <rect x="20" y="150" width="740" height="2" rx="1" fill="url(#hl-accent)" opacity="0.15"/>
+</svg>
