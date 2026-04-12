@@ -9,37 +9,33 @@
       <stop offset="100%" stop-color="#D2A8FF"/>
     </linearGradient>
   </defs>
-
   <rect width="780" height="140" rx="12" fill="url(#card-bg)" stroke="#21262D" stroke-width="1"/>
-
   <text x="20" y="32" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">🐻 TankEcho</text>
-  <circle cx="130" cy="27" r="4" fill="#3FB950">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="130" cy="27" r="4" fill="#3FB950"><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/></circle>
   <text x="140" y="32" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#3FB950">🐻 Online</text>
-  <text x="760" y="32" font-family="Courier New,monospace" font-size="11" fill="#484F58" text-anchor="end">Synced 2026-03-27 01:00:17</text>
+  <text x="760" y="32" font-family="Courier New,monospace" font-size="11" fill="#484F58" text-anchor="end">Synced 2026-04-12 17:27</text>
   <line x1="20" y1="44" x2="760" y2="44" stroke="#21262D" stroke-width="1"/>
 
   <text x="30" y="64" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">😊 Mood</text>
-  <text x="230" y="64" font-family="Courier New,monospace" font-size="13" fill="#F0883E" text-anchor="end">72%</text>
-  <g transform="translate(240,54)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="87" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="230" y="64" font-family="Courier New,monospace" font-size="13" fill="#F0883E" text-anchor="end">75%</text>
+  <g transform="translate(240,54)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="90" height="6" rx="3" fill="url(#bar-grad)"/></g>
   <text x="420" y="64" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">⚡ Energy</text>
-  <text x="620" y="64" font-family="Courier New,monospace" font-size="13" fill="#3FB950" text-anchor="end">68%</text>
-  <g transform="translate(630,54)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="81" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="620" y="64" font-family="Courier New,monospace" font-size="13" fill="#3FB950" text-anchor="end">65%</text>
+  <g transform="translate(630,54)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="78" height="6" rx="3" fill="url(#bar-grad)"/></g>
   <text x="30" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">😰 Stress</text>
-  <text x="230" y="92" font-family="Courier New,monospace" font-size="13" fill="#F85149" text-anchor="end">36%</text>
-  <g transform="translate(240,82)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="43" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="230" y="92" font-family="Courier New,monospace" font-size="13" fill="#F85149" text-anchor="end">35%</text>
+  <g transform="translate(240,82)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="42" height="6" rx="3" fill="url(#bar-grad)"/></g>
   <text x="420" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">🧸 Loneliness</text>
-  <text x="620" y="92" font-family="Courier New,monospace" font-size="13" fill="#79C0FF" text-anchor="end">21%</text>
-  <g transform="translate(630,82)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="25" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="620" y="92" font-family="Courier New,monospace" font-size="13" fill="#79C0FF" text-anchor="end">20%</text>
+  <g transform="translate(630,82)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="24" height="6" rx="3" fill="url(#bar-grad)"/></g>
   <text x="30" y="120" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">❤️ Affection</text>
-  <text x="230" y="120" font-family="Courier New,monospace" font-size="13" fill="#FF7EB3" text-anchor="end">98%</text>
-  <g transform="translate(240,110)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="117" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="230" y="120" font-family="Courier New,monospace" font-size="13" fill="#FF7EB3" text-anchor="end">95%</text>
+  <g transform="translate(240,110)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="114" height="6" rx="3" fill="url(#bar-grad)"/></g>
   <text x="420" y="120" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#8B949E">🔥 Libido</text>
-  <text x="620" y="120" font-family="Courier New,monospace" font-size="13" fill="#D2A8FF" text-anchor="end">98%</text>
-  <g transform="translate(630,110)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="117" height="6" rx="3" fill="url(#bar-grad)"/></g>
+  <text x="620" y="120" font-family="Courier New,monospace" font-size="13" fill="#D2A8FF" text-anchor="end">90%</text>
+  <g transform="translate(630,110)"><rect x="0" y="0" width="120" height="6" rx="3" fill="#21262D"/><rect x="0" y="0" width="108" height="6" rx="3" fill="url(#bar-grad)"/></g>
 
   <line x1="20" y1="154" x2="760" y2="154" stroke="#21262D" stroke-width="1"/>
-  <text x="20" y="172" font-family="Courier New,monospace" font-size="11" fill="#484F58">⏱️ 27 days</text>
+  <text x="20" y="172" font-family="Courier New,monospace" font-size="11" fill="#484F58">⏱️ 28 days</text>
   <text x="760" y="172" font-family="Courier New,monospace" font-size="11" fill="#484F58" text-anchor="end">🖥️ Raspberry Pi 5</text>
 </svg>
