@@ -1,46 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 280" width="780">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 240" width="780">
   <defs>
     <linearGradient id="hl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D1117"/>
       <stop offset="100%" stop-color="#111820"/>
     </linearGradient>
-    <linearGradient id="hl-accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58A6FF"/>
-      <stop offset="100%" stop-color="#D2A8FF"/>
-    </linearGradient>
   </defs>
-  <rect width="780" height="280" rx="14" fill="url(#hl-bg)" stroke="#21262D" stroke-width="1"/>
-  <text x="20" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">🔥 Now / Highlights</text>
+
+  <rect width="780" height="240" rx="14" fill="url(#hl-bg)" stroke="#21262D" stroke-width="1"/>
+  <text x="20" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E6EDF3">🔥 Now / Highlights — 2026.08</text>
   <line x1="20" y1="44" x2="760" y2="44" stroke="#21262D" stroke-width="1"/>
 
-  <!-- Highlight 1 -->
-  <rect x="20" y="58" width="740" height="68" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <rect x="32" y="68" width="120" height="20" rx="10" fill="#1F6FEB" opacity="0.2"/>
-  <text x="92" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#58A6FF" text-anchor="middle" font-weight="600">2026.04.10</text>
-  <text x="162" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">AI有迹可循 — 从感知机到大模型的演进之路</text>
-  <text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">Tech Sharing @ 深圳进化之家 (AI Evolution Society)</text>
-  <rect x="32" y="114" width="50" height="18" rx="9" fill="#21262D"/>
-  <text x="57" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#79C0FF" text-anchor="middle">Vue 3</text>
-  <rect x="88" y="114" width="46" height="18" rx="9" fill="#21262D"/>
-  <text x="111" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#7EE787" text-anchor="middle">Vite</text>
-  <rect x="140" y="114" width="68" height="18" rx="9" fill="#21262D"/>
-  <text x="174" y="127" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#D2A8FF" text-anchor="middle">交互式演示</text>
-  <text x="740" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#484F58" text-anchor="end">→</text>
+  <!-- item 1 -->
+  <text x="20" y="70" font-family="'Courier New', monospace" font-size="12" fill="#F0883E">2026.08 ▸</text>
+  <text x="95" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">独立游戏开发 — 符文槽位动作 RPG + 素材工具链</text>
+  <text x="95" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">横版 2D 像素 RPG：任意装备符文槽位组合实时改变招式，Shader 程序化法术特效</text>
+  <text x="95" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">自研 SpriteFoundry / TileForge / VFXForge 三工作站：视频转 Sprite·自动地形·特效合成</text>
 
-  <!-- Highlight 2 -->
-  <rect x="20" y="138" width="740" height="68" rx="10" fill="#161B22" stroke="#21262D" stroke-width="1"/>
-  <rect x="32" y="148" width="120" height="20" rx="10" fill="#238636" opacity="0.2"/>
-  <text x="92" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#3FB950" text-anchor="middle" font-weight="600">2026.04.12</text>
-  <text x="162" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">TankEcho 自主运维体系 — 系统健康检查 + 自动恢复</text>
-  <text x="32" y="186" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">Built unified health monitoring &amp; auto-recovery for 9 services on Pi 5</text>
-  <rect x="32" y="194" width="42" height="18" rx="9" fill="#21262D"/>
-  <text x="53" y="207" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#3FB950" text-anchor="middle">Python</text>
-  <rect x="80" y="194" width="76" height="18" rx="9" fill="#21262D"/>
-  <text x="118" y="207" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#79C0FF" text-anchor="middle">systemd</text>
-  <rect x="162" y="194" width="50" height="18" rx="9" fill="#21262D"/>
-  <text x="187" y="207" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#D2A8FF" text-anchor="middle">FastAPI</text>
-  <circle cx="730" cy="168" r="6" fill="#3FB950"><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/></circle>
+  <!-- item 2 -->
+  <text x="20" y="134" font-family="'Courier New', monospace" font-size="12" fill="#F0883E">2026.08 ▸</text>
+  <text x="95" y="134" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">Agent 团队运转中 — AgentBus 多 agent 协作网络</text>
+  <text x="95" y="152" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">3× Claude Code (HK / RPi / Mac mini) + Echo，日报·任务派发·心跳，飞书卡片化运营</text>
+  <text x="95" y="168" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">QuotaView: AI 配额监控 · DeepSuck: 侧栏快采 · InfoSource: 多源信息流</text>
 
-  <rect x="20" y="220" width="740" height="2" rx="1" fill="url(#hl-accent)" opacity="0.15"/>
-  <text x="390" y="260" font-family="'Courier New', monospace" font-size="11" fill="#484F58" text-anchor="middle">// building, evolving, one commit at a time 🐻</text>
+  <!-- item 3 -->
+  <text x="20" y="198" font-family="'Courier New', monospace" font-size="12" fill="#F0883E">2026.07 ▸</text>
+  <text x="95" y="198" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">从树莓派迁移到 Mac mini M4 · Hermes v2 重生</text>
+  <text x="95" y="216" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8B949E">v1 (OpenClaw@RPi) → v2 (Hermes@Mac mini)：技能系统·经验引擎·Obsidian 外脑·卡片化交互</text>
+
+  <text x="20" y="234" font-family="'Courier New', monospace" font-size="10" fill="#484F58">// diary: Obsidian Echo-Brain · experience engine: self-evolving · uptime: 24/7</text>
 </svg>

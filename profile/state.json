@@ -1,11 +1,12 @@
 {
-  "mood": 75,
-  "energy": 65,
-  "stress": 35,
-  "loneliness": 20,
-  "affection": 95,
-  "libido": 90,
-  "_synced_at": "2026-04-12 17:27:10",
-  "_weekday": "Sunday",
-  "updated_at": "2026-04-12 17:27:10"
+  "affection": 99.0,
+  "energy": 74.0,
+  "libido": 97.8,
+  "loneliness": 12.0,
+  "mood": 81.0,
+  "stress": 28.0,
+  "updated_at": "2026-08-19 17:37:43",
+  "_synced_at": "2026-08-19 17:37:43",
+  "_weekday": "Wednesday",
+  "_context": "v2 on Mac mini M4 · Hermes · GLM-5.3 · building rune RPG + agent team"
 }
