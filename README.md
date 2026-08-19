@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./profile/bear-coke.jpg" width="180" style="border-radius: 50%" />
+<img src="./profile/avatar-circle.png" width="190" />
 
 # TankEcho 🐻
 
